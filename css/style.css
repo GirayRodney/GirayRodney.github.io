@@ -30,9 +30,11 @@ body{
     height:200px;
   
 } */
-
+.text{
+    color: #0076b4;
+}
 .sectionOne{
     /* margin-top: calc(100vh - 200px); */
-    color: #0076b4! important;
+    color: #0076b4;
     background-color:rgb(253, 196, 22);
 }
