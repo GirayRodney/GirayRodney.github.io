@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:auto;
+}
+
+.banner-image{
+    background-color: rgb(255, 167, 0);
+    height: 100vh !important;
+    background-size: cover;
+}
+
+.nav-link{
+    color:black;
+    margin-left:20px;
+    margin-right:10px;
+}
+
+#coconutSugar{
+    height:300px;
+    width: 320px;
+    
+}
+
+/* #imgKaffea{
+    height:200px;
+  
+} */
+
+.sectionOne{
+    /* margin-top: calc(100vh - 200px); */
+    color: #0076b4! important;
+    background-color:rgb(253, 196, 22);
+}
