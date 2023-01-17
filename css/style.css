@@ -17,8 +17,6 @@
     font-size:44px;
 }
 
-/* .logo{background-color:white;} */
-
 body{overflow:auto;}
 .Kaffea{font-family:'Keysha'; color:rgb(80, 39, 13);}
 
@@ -39,10 +37,10 @@ color:white;
     color:#0076b4;
     margin-left:20px;
     margin-right:10px;
-    font-family:'CalvertMTBold';
+    font-family:'CalvertMTBold',sans-serif;
 }
 
-#coconutSugar, #cocoa, #agaricus, #ganodrema{outline: 5px solid rgb(255, 167, 0);}
+#coconutSugar, #cocoa, #agaricus, #ganodrema{outline: 10px solid rgb(255, 167, 0);}
 
 /* //imghover */
 .shadow-lg:hover{
@@ -54,12 +52,8 @@ color:white;
     height:auto; 
     max-width: 100%;
 }
-/* 
-.logo{
-    height:300px;
-    width:300px;
-} */
-p{font-family: 'CalvertMTBold';}
+
+p{font-family: 'CalvertMTBold',sans-serif;}
 
 i,h5{color:#0076b4;}
 
