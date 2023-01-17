@@ -2,7 +2,10 @@
     font-family: 'CalvertMTBold';
     src: url(/fonts/Calvert\ MT\ Bold.ttf);
 }
-
+@font-face {
+    font-family: 'Keysha';
+    src: url(/fonts/Keshya.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -14,9 +17,8 @@
     font-size:44px;
 }
 
-body{
-    overflow:auto;
-}
+body{overflow:auto;}
+.Kaffea{font-family:'Keysha'; color:rgb(80, 39, 13);}
 
 .banner-image{
     background-color: rgb(255, 167, 0);
@@ -24,27 +26,41 @@ body{
     background-size: cover;
 }
 
+/* navbar hover */
+.navbar a:hover{
+background-color:#0076b4;
+color:white;
+
+}
+
 .nav-link{
-    color:black;
+    color:#0076b4;
     margin-left:20px;
     margin-right:10px;
+    font-family:'Keysha';
 }
 
-#coconutSugar{
-    height:300px;
-    width: 320px;
-    
+#coconutSugar, #cocoa, #agaricus, #ganodrema{outline: 6px solid rgb(255, 167, 0);}
+
+/* //imghover */
+.shadow-lg:hover{
+    transform: scale(1.05) translateY(-20px);
+    z-index: 20;   
 }
 
-/* #imgKaffea{
-    height:200px;
-  
-} */
-.text{
-    color: #0076b4;
+#imgKaffea{
+    height:auto; 
+    max-width: 100%;
 }
+
+.text{color: #0076b4;}
+
 .sectionOne{
     /* margin-top: calc(100vh - 200px); */
     color: #0076b4;
     background-color:rgb(253, 196, 22);
+}
+
+.sectionThree{
+    background-color:#0076b4;
 }
