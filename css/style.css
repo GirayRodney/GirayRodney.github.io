@@ -1,7 +1,17 @@
+@font-face {
+    font-family: 'CalvertMTBold';
+    src: url(/fonts/Calvert\ MT\ Bold.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+}
+
+.text-primary{
+    font-family: 'CalvertMTBold', sans-serif;
+    font-size:44px;
 }
 
 body{
