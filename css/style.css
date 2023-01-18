@@ -17,14 +17,25 @@ body{overflow:auto;}
 i,h5{color:#0076b4;}
 .sectionThree{background-color:#0076b4;}
 p{font-family: 'CalvertMTBold',sans-serif;}
+.section4{font-family: 'CalvertMTBold', sans-serif;}
 .Kaffea{font-family:'Keysha'; color:rgb(80, 39, 13);}
 #coconutSugar, #cocoa, #agaricus, #ganodrema{outline: 5px solid rgb(255, 167, 0);}
+
+.pic img{
+    border-radius:80px;
+    height:200px;
+    width:100%;
+    box-shadow: 2px 5px 5px 5px;
+}
+
 img{
     max-width:100%;
     max-height:100%;
 }
 
-.text-primary{
+
+
+.text-primary {
     font-family: 'CalvertMTBold', sans-serif;
     font-size:44px;
 }
@@ -64,4 +75,16 @@ color:white;
     /* margin-top: calc(100vh - 200px); */
     color: #0076b4;
     background-color:rgb(253, 196, 22);
+}
+
+
+@media screen and (max-width:876px){
+    .res{
+        display:flex;
+        flex-direction: column;
+    }
+    .res img{display: none;}
+
+    .navbar{background-color:rgb(253, 196, 22);}
+
 }
