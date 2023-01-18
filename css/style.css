@@ -40,12 +40,12 @@ color:white;
     font-family:'CalvertMTBold',sans-serif;
 }
 
-#coconutSugar, #cocoa, #agaricus, #ganodrema{outline: 10px solid rgb(255, 167, 0);}
+#coconutSugar, #cocoa, #agaricus, #ganodrema{outline: 5px solid rgb(255, 167, 0);}
 
 /* //imghover */
 .shadow-lg:hover{
     transform: scale(1.05) translateY(-20px);
-    z-index: 20;   
+    z-index: 20;  
 }
 
 #imgKaffea{
