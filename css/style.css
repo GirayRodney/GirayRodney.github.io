@@ -33,8 +33,6 @@ img{
     max-height:100%;
 }
 
-
-
 .text-primary {
     font-family: 'CalvertMTBold', sans-serif;
     font-size:44px;
@@ -67,6 +65,11 @@ color:white;
 }
 
 #imgKaffea{
+    transform: scale(1.05) translateY(-20px);
+    z-index: 20;  
+}
+
+#imgKaffea{
     height:auto; 
     max-width: 100%;
 }
@@ -78,13 +81,14 @@ color:white;
 }
 
 
-@media screen and (max-width:876px){
-    .res{
-        display:flex;
-        flex-direction: column;
+@media only screen and (max-width: 576px){
+    #imgKaffea{
+        display:none;
     }
-    .res img{display: none;}
 
-    .navbar{background-color:rgb(253, 196, 22);}
+    #getKaffeaBtn{
+        margin-left: 120px;
+    }
 
 }
+    

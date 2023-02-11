@@ -14,7 +14,7 @@
 <body>
     
         <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 " id="bgNav">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" id="bgNav">
             <div class="container">
                 <a href="#" class="Kaffea navbar-brand"><b>StarKaffea</b></a>
                 <button
@@ -52,16 +52,16 @@
         </nav>
 
             <!--------------- Banner Image ------------>
-        <div class="banner-image w-100 d-flex align-items-center">
-            <div class="res container d-flex justify-content-between align-items-center ">
-                <div class="text">
-                    <h1 class="text-primary fw-bold">A Weekly Pursuit<p> of the Perfect Cup</p></h1> 
+        <div class="col-md-2 banner-image w-100 d-flex align-items-center">
+            <div class="col-md-12 res container d-flex justify-content-between align-items-center ">
+                <div class="text-banner mx-auto">
+                    <h1 class="text-primary fw-bold ">A Weekly Pursuit<p> of the Perfect Cup</p></h1> 
                         <p>Each week we create unique, limited releases,</p> 
                         <p> roasting the best beans from arround the coffe world</p> 
                         <p>to bring you cup that always hits the bullseye.</p>
-                    <button type="button" class="btn btn-primary btn-lg my-5">Get Kaffea</button>
+                    <button type="button" class="btn btn-primary btn-lg my-5 " id="getKaffeaBtn">Get Kaffea</button>
                 </div>
-                <img class ="shadow-lg " id="imgKaffea" src="images/imgBanner2.png" width="700px"> 
+                <img class ="banner "id="imgKaffea" src="images/imgBanner2.png" width="700px"> 
             </div>
            
         </div>
@@ -78,45 +78,54 @@
         </section>
             
                     <!------------------------------ Section 3 ---------------------->
-        <h2 class="fw-bold m-5 text-center" style="font-family: 'CalvertMTBold'; color: #0076b4;">Why <span class="Kaffea text-center">Kaffea & Chocolea</span> is healthy?</h2>
+        <h2 class="fw-bold m-5 text-center col-6 col-sm-12 p-sm-5" style="font-family: 'CalvertMTBold'; color: #0076b4;">Why <span class="Kaffea text-center">Kaffea & Chocolea</span> is healthy?</h2>
         <div class="container my-5 d-grid gap-3">
+
+                                                <!------- Coconut Sugar ------->
             <div class="row justify-content-start p-4">
-                    <div class="col-6 " > 
+                    <div class="col-6 col-sm-12 p-sm-5 " > 
                         <img class="shadow-lg" id="coconutSugar"
                             src="images/cocosugar.jpg" 
                             style ="height:auto; width:100%;">
                     </div>
-                    <div class="col-6 text-center rounded"><h4 class="Kaffea">Coconut Sugar</h4><p>Coconut sugar offer more vitamins and minerals than white table sugar. It contains trace amounts of vitamin C, potassium, phosphorous, magnesium, calcium, zinc, iron and copper. Coconut sugar also provides small amounts of phytonutrients, such as polyphenols, flavonoids and anthocyanidin, and antioxidants.</p></div>
+                    <div class="col-6 col-sm-12 p-sm-5 text-center rounded"><h4 class="Kaffea">Coconut Sugar</h4><p>Coconut sugar offer more vitamins and minerals than white table sugar. It contains trace amounts of vitamin C, potassium, phosphorous, magnesium, calcium, zinc, iron and copper. Coconut sugar also provides small amounts of phytonutrients, such as polyphenols, flavonoids and anthocyanidin, and antioxidants.</p></div>
             </div>
+
+                                            <!-------- Cocoa Beans -------->
             <div class="row d-flex flex-row-reverse p-4">
                 <div class="col" > 
                     <img class="shadow-lg" id="cocoa" src="images/cacao.jpg" style="width:100%; height:auto">
                 </div>
-                <div class="col-6 text-center rounded"><h4 class="Kaffea">Cocoa Beans</h4><p>contains fiber that bacteria eat to create fatty acid chains. These fatty acids benefit your digestive system. Drinks made with cacao might also increase the number of good bacteria in your gut. Research shows that eating dark chocolate can reduce stress, which boosts your overall mental and physical health</p></div>
+                <div class="col-6 col-sm-12 p-sm-5 text-center rounded"><h4 class="Kaffea">Cocoa Beans</h4><p>contains fiber that bacteria eat to create fatty acid chains. These fatty acids benefit your digestive system. Drinks made with cacao might also increase the number of good bacteria in your gut. Research shows that eating dark chocolate can reduce stress, which boosts your overall mental and physical health</p></div>
             </div>   
+
+                                 <!-------- Agaricus Mushroom -------->
             <div class="row p-4">
                 <div class="col " > 
                     <img class="shadow-lg" id="agaricus" 
                         src="images/agaricus.jpg" 
                         style ="height: auto; width:100%;">
                 </div>
-                <div class="col-6 text-center  rounded"><h4 class="Kaffea">Agaricus Mushroom</h4><p>The mushroom is traditionally believed to fight physical and emotional stress, stimulate immune system, improve the quality of life in diabetics, reduce cholesterol, prevent osteoporosis and peptic ulcer, treat circulatory and digestive problems and fight cancer</p></div>
+                <div class="col-6 col-sm-12 p-sm-5 text-center rounded"><h4 class="Kaffea">Agaricus Mushroom</h4><p>The mushroom is traditionally believed to fight physical and emotional stress, stimulate immune system, improve the quality of life in diabetics, reduce cholesterol, prevent osteoporosis and peptic ulcer, treat circulatory and digestive problems and fight cancer</p></div>
             </div>   
+                                  <!--------- Ganoderma Lucidum --------->
                 <div class="row d-flex flex-row-reverse p-4">
                 <div class="col" > 
                     <img class="shadow-lg" id="ganodrema" 
                         src="images/ganoderma.jpg" 
                         style ="height:auto; width:100%;">
             </div>
-                <div class="col-6 text-center rounded"><h4 class="Kaffea">Ganoderma Lucidum</h4><p>has anti-oxidative effects when supplemented. It also has a therapeutic effect on insulin resistance, reduces the risk of prostate cancer, and can help treat a variety of conditions associated with metabolic syndrome. The lingzi mushroom is well known for its anti-cancer effects.</p></div>
+                <div class="col-6 col-sm-12 p-sm-5 text-center rounded"><h4 class="Kaffea">Ganoderma Lucidum</h4><p>has anti-oxidative effects when supplemented. It also has a therapeutic effect on insulin resistance, reduces the risk of prostate cancer, and can help treat a variety of conditions associated with metabolic syndrome. The lingzi mushroom is well known for its anti-cancer effects.</p></div>
             </div>
         </div>  
+
+                                         <!--------- Testimonial --------->
         <div class="container min-vh-100 ">
             <h1 class="text-center p-3" style="font-family: 'CalvertMTBold', sans-serif; color:#0076b4;">Testimonials</h1> 
-            <div class="section4 d-flex justify-content-evenly align-content-center">
-                <div class="pic m-5"><img src="images/testi1.jpg" ></div>
-                <div class="pic m-5"><img src="images/testi3.jpg" height="auto" width="250px"></div>
-                <div class="pic m-5"><img src="images/testi2.jpg" height="auto" width="250px"></div>
+            <div class="section4 d-flex justify-content-evenly align-content-center ">
+                <div class="pic m-5 col-sm-3"><img src="images/test4.jpg" ></div>
+                <div class="pic m-5 col-sm-3"><img src="images/test5.png" height="auto" width="250px"></div>
+                <div class="pic m-5 col-sm-3"><img src="images/test6.png" height="auto" width="250px"></div>
             </div>
             <div class="section4 text-center ms-5 d-flex justify-content-evenly align-conten-center gap-5">
                 <div ><p>“It’s the best-tasting and best value  mail-order coffee I’ve had to date.”</p><br><p>— Scottie</p></div>
