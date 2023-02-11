@@ -91,4 +91,24 @@ color:white;
     }
 
 }
+
+@media only screen and (max-width: 375px){
+    #imgKaffea{
+        display:none;
+    }
+
+    #getKaffeaBtn{
+        margin-left: 120px;
+    }
+
+    #benefits{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #coconutSugar1
+}
+
     
