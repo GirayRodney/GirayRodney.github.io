@@ -92,13 +92,13 @@ color:white;
 
 }
 
-/* @media only screen and (max-width: 376px){
+@media (min-width: 320px){
     #imgKaffea{
         display:none;
     }
 
     #getKaffeaBtn{
-        margin-left: 120px;
+        margin-left: 90px;
     }
 
     #benefits{
@@ -108,7 +108,6 @@ color:white;
         align-content: center;
     }
     
-
-} */
+}
 
     
